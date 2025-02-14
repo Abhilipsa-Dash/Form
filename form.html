@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+    <style>
+    
+       body{
+        background: url('image.png') no-repeat center center;
+        height: 500px;
+        width: 378px;
+        border: 1px solid black;
+        align-items: center;
+        margin: auto;
+        margin-top: 150px;
+        padding: 2px;
+        box-shadow: inset 10px -10px 10px 10px  rgba(0.5, 0.5, 0.5, 0.5);
+  border-radius: 10px;
+       }
+       .y{
+        text-align: center;
+       text-shadow: 1px 2px 3px;
+       border-bottom: 4px solid rgba(45, 37, 40, 0.5);
+      margin: 20px;
+       }
+       .box{
+        margin: 10px;
+        padding: 12px;
+        text-align: center;
+        width: 65%;
+        border: none;
+        outline: none;
+        border-radius: 20px;
+      background-color: rgba(0, 0, 0, 0.5);
+      align-items: center;
+       }
+      .x{
+       text-align: center;
+       background-color: rgba(0, 0, 0, 0.5);
+       border-radius: 20px;
+       border: none;
+        outline: none;
+        padding: 10px;
+        margin: 15px;
+        cursor: pointer;
+      }
+       .row{
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.5);
+        margin: 10px;
+        border-radius: 20px;
+        padding: 10px;
+        cursor: pointer;
+       }
+       .button{
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 20px;
+        margin: 10px;
+        padding: 10px;
+        cursor: pointer;
+       }
+       .button button:hover{
+        background-color: rgba(0, 0, 0, 0.5);
+        color: aqua;
+        cursor: pointer;
+       }
+     
+    </style>
+</head>
+<body>
+   <div class="y">
+    <h1>LOGIN</h1>
+   </div>
+   <div >
+    <input type="text" class="box" name="useranme" placeholder="Enter your username">
+   </div> 
+   <div>
+    <input type="email" name="email" class="box" placeholder="Enter mail">
+   </div>
+   <div>
+    <input type="password" name="password" class="box" placeholder="Enter your password">
+   
+  </div>
+   <div class="x">
+    <input type="radio" name="gender" id="male" value="male" >
+    <label for="gender">male</label>
+    <input type="radio" name="gender" id="female" value="male" >
+    <label for="gender">female</label>
+   </div>
+  <div class="row">
+    <label for="Choose your country"></label>
+    <select name="country" id="country">
+      <option value="india">India</option>
+      <option value="england">England</option>
+      <option value="italy">Italy</option>
+    </select>
+  </div><br>
+<div class="button">
+      <button>Submit</button>
+    </div> 
+    
+  
+</body>
+</html>
