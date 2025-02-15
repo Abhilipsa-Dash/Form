@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS box layout</title>
+   <style>
+    *{
+        margin: 0;padding: 0;
+    }
+    header{
+        position: sticky;top: 0;
+    }
+    nav{
+        background-color: pink;
+        height: 100px;
+    }
+    main{
+        background-color: black;
+        padding: 84px;
+        color: white;
+    }
+    .container{
+        background-color: green;
+        margin: 12px 34px;
+        height: 294px;
+        text-align: center;
+        padding: 12px 0;
+        
+    }
+    .box1{
+        background-color: palevioletred;
+        height: 224px;
+        width: 45%;
+        display: inline-block;
+        margin: 9px;
+        padding: 4px;
+    }
+    .box2{
+        background-color: blue;
+        height: 224px;
+        width: 45%;
+        display: inline-block;
+        margin: 9px;
+        padding: 4px;
+    }
+    p{
+         border: 2px solid white;
+         padding: 34px;
+         margin: 10px 34vw;
+         border-radius: 13px;
+         font-size: 15px;
+         border-radius: 13px;   
+    }
+    .orangebox{
+        height: 12px;
+        width: 12px;
+        border-radius:13px ;
+        background-color: orangered;
+        position: fixed;
+        bottom: 12px;
+        right: 23px;
+    }
+    footer{
+        height: 400px;
+        background-color: bisque;
+    }
+  
+   </style>
+</head>
+<body>
+    <header>
+       <nav>
+
+       </nav>
+    </header>
+    <main>
+  <div class="container">
+    <div class="box1"></div>
+    <div class="box2"></div>
+
+  </div>
+    </main>
+    <div class="box3">
+      <p>WELCOME TO SIGMA WEB-DEVELOPMENT EXPRESS</p>
+      <div class="orangebox">
+
+      </div>
+    <footer>
+
+    </footer>
+</body>
+</html>
